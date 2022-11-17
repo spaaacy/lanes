@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723907638463",
+    "project_id": "driverrep-9cb39",
+    "storage_bucket": "driverrep-9cb39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723907638463:android:3d94b9f4758cc070e4c20a",
+        "android_client_info": {
+          "package_name": "com.aakifahamath.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723907638463-1ptf0fglodnj17fusdq0qfuo9vqun2lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFmKXPYqo6anFEWfWFJjvZYz9KcI_miCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723907638463-1ptf0fglodnj17fusdq0qfuo9vqun2lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

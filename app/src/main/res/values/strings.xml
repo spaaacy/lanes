@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lanes</string>
+    <string name="welcome">Enter a license to rate</string>
+    <string name="next">Next</string>
+    <string name="number_label">Enter number here…</string>
+    <string name="prefix_label">Enter prefix here…</string>
+    <string name="warn_prefix">Prefix cannot be left empty!</string>
+    <string name="warn_number">Number cannot be left empty</string>
+    <string name="warn_letter">Prefix cannot contain letters I\'s or O\'s</string>
+    <string name="login_message">Welcome to Lanes!\nPlease login to your account</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="login">Login</string>
+    <string name="hide_password">Hide password</string>
+    <string name="show_password">Show password</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="login_failure">Error! Failed to login!</string>
+    <string name="continue_anon">Continue without signing in?</string>
+</resources>
