@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.tasks.await
 
-class AuthenticationUseCase() {
+class   AuthenticationUseCase() {
 
     private val auth: FirebaseAuth = Firebase.auth
 

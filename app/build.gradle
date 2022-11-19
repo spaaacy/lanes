@@ -118,6 +118,10 @@ dependencies {
     // Google Play Services - Auth
     implementation "com.google.android.gms:play-services-auth:20.3.0"
 
+    //Mockk
+    def mockkVersion = "1.13.2"
+    testImplementation "io.mockk:mockk:${mockkVersion}"
+
 }
 
 kapt {
