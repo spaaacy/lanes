@@ -1,0 +1,23 @@
+This didn't work:
+
+firebaseDatabase = FirebaseDatabase.getInstance().apply {
+    useEmulator("10.0.2.2", 9000)
+}
+
+This worked:
+
+// Using database instance directly works
+// Works even when injected with hilt
+
+// Difference maker - created context?
+@get:Rule(order = 1)
+val composeTestRule = createComposeRule()
+// Worked without composeTestRule.setContent { }
+
+
+const val TEST_URL = "http://10.0.2.2:9000/?ns=driverrep-9cb39"
+firebaseDatabase = Firebase.database(TEST_URL)
+// Or this too:
+firebaseDatabase = FirebaseDatabase.getInstance(TEST_URL)
+// Both also with
+.apply{ useEmulator(LOCALHOST, REALTIME_PORT) } // LOCALHOST = "10.0.2.2", REALTIME_PORT = 9000
